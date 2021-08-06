@@ -1,0 +1,15 @@
+.pic{
+    @include demo('../images/service-icons.png',-13px)
+}
+
+.pic-1{
+    @include demo('../images/service-icons.png',-60px)
+}
+ 
+.pic-2{
+    @include demo('../images/service-icons.png',-120px)
+}
+
+.pic-3{
+    @include demo('../images/service-icons.png',-180px)
+}

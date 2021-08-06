@@ -1,0 +1,31 @@
+.banner-img {
+    position: relative;
+    z-index: 2;
+    img {
+        width: 100%;
+        box-shadow: -1px 1px rgb(131 130 130),
+            -2px 2px rgb(184 184 184),
+            -3px 3px rgb(180 180 180),
+            -4px 4px rgb(176 176 176),
+            -5px 5px rgb(172 172 172),
+            -6px 6px rgb(168 168 168),
+            -7px 7px rgb(164 164 164),
+            -8px 8px rgb(160 160 160),
+            -9px 9px rgb(156 156 156),
+            -10px 10px rgb(152 152 152),
+            -11px 11px rgb(148 148 148),
+            -12px 12px rgb(144 144 144),
+            -13px 13px rgb(140 140 140),
+            -14px 14px rgb(136 136 136),
+            -15px 15px rgb(132 132 132),
+            -16px 16px rgb(128 128 128),
+            -17px 17px rgb(124 124 124),
+            -18px 18px rgb(120 120 120),
+            -19px 19px rgb(116 116 116),
+            -20px 20px rgb(112 112 112),
+            -21px 21px rgb(108 108 108),
+            -22px 22px rgb(104 104 104),
+            -23px 23px rgb(100 100 100);
+        border-radius: 8px;
+    }
+}

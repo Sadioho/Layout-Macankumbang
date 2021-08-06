@@ -1,0 +1,42 @@
+.slide{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    .slide-img{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .slide-overlay{
+            width: 100%;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            h1{
+                font-size: 25px;
+
+                font-weight: bold;
+                @include Responsive(XS){
+                    font-size: 48px;
+
+                }
+            }
+            .slide-text{
+                font-size: 14px;
+
+                @include Responsive(XS){
+                    font-size: 24px;
+
+
+                }
+            }
+            .slide-text-2{
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+

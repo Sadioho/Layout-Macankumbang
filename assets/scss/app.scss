@@ -1,0 +1,34 @@
+@import 'custom_variables';
+@import 'font';
+// opitional
+@import './optional/mixin';
+//essential
+@import './essential/essential';
+// components
+@import './components/banner_img';
+@import './components/banner_title';
+@import './components/button';
+@import './components/title';
+@import './components/pic_services';
+@import './components/portfolio_wrapper';
+@import './components/slider_customer';
+@import './components/address';
+@import './components/form';
+@import './components/btn_scrollTop';
+
+
+@import './index';
+
+//partials
+@import './partials/partials';
+//sestion
+@import './sections/banner';
+@import './sections/services';
+@import './sections/portfolio';
+@import './sections/customer';
+@import './sections/map';
+@import './sections/contact';
+
+
+
+

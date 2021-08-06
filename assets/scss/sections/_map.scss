@@ -1,0 +1,16 @@
+.map{
+   overflow: hidden;
+   position: relative;
+   height: 450px;
+   iframe{
+   position: absolute;
+    width: 100%;
+   } 
+   img{
+      position: absolute;
+      z-index: 4;
+      top: 40%;
+      left: 40%;
+      transform: translate(-50%,-50%);
+   }
+}

@@ -1,0 +1,60 @@
+.form {
+    font-size: 18px;
+    font-family: 'Open sans';
+
+    .name {
+        margin: 20px 0;
+        padding: 0;
+
+        @include Responsive(MD) {
+            padding-right: 15px;
+            margin: 0;
+
+
+        }
+
+        input {
+            padding: 20px;
+            width: 100%;
+            border-radius: 6px;
+            outline: none;
+            border: 1px solid white;
+        }
+    }
+
+    .mail {
+        padding: 0;
+
+        @include Responsive(MD) {
+            padding-left: 15px;
+
+
+        }
+
+        input {
+            padding: 20px;
+            width: 100%;
+            border-radius: 6px;
+            outline: none;
+            border: 1px solid white;
+        }
+
+    }
+
+    .mess {
+        textarea {
+            padding: 20px;
+            margin: 20px 0;
+            width: 100%;
+            border-radius: 6px;
+            outline: none;
+            border: 1px solid white;
+        }
+    }
+
+    button {
+        color: white;
+
+    }
+
+}

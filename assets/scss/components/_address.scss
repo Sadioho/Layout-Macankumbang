@@ -1,0 +1,72 @@
+.address {
+    color: white;
+    font-size: 18px;
+    font-family: "Open sans";
+
+    a {
+        color: white;
+
+        &:hover {
+            color: unset;
+        }
+    }
+
+    h4 {
+
+        font-weight: bold;
+    }
+
+    h5 {
+        font-size: 18px;
+        padding: 10px 0;
+
+        .gps {
+            vertical-align: middle;
+            padding: 0px;
+            width: 25px;
+            height: 20px;
+            display: inline-block;
+            background: url(../../assets/images/cnt-icons.png) no-repeat;
+
+        }
+
+        .phone {
+            @extend .gps;
+            background-position: 0px -45px;
+        }
+
+        .mail {
+            @extend .gps;
+            background-position: 0px -90px;
+        }
+
+    }
+    .address-logo{
+        
+            .logo-1{
+                
+                padding: 0px;
+                width: 44px;
+                height: 42px;
+                display: inline-block;
+                background: url(../../assets/images/social-icons.png) no-repeat;
+                cursor: pointer;
+            }
+            .logo-2,.logo-3{
+                @extend .logo-1;
+            }
+            .logo-2{
+                background-position: -55px 0px;
+                &:hover{
+                    background-position: -55px -48px;
+                }
+            }
+            .logo-3{
+                background-position: -110px 0px;
+                &:hover{
+                    background-position: -110px -48px;
+                }
+            }
+        
+    }
+}

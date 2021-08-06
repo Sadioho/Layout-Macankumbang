@@ -1,0 +1,59 @@
+
+@mixin  border-bottom($bg) {
+    .border-bottom{
+    background-color: $bg;
+        &::after{
+            background: $bg;
+        }
+        &::before{
+            background: $bg;
+        }
+    }
+   
+};
+
+
+
+@mixin demo($img,$top) {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    &:hover>span{
+        .pic1{
+            background-position: $top 55px;
+
+        }
+    }
+    span{
+        i{
+          padding: 0px;
+          width: 48px;
+          height: 52px;
+          background-image:url($img);
+          display: inline-block;
+        }
+        .pic1{
+            background-position:  $top 0px;
+
+        }
+         
+    }
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    p{
+        font-size: 14px;
+    }
+    .button{
+        padding: 8px 30px;
+       a{
+        font-size: 11px;
+        font-weight: unset;
+       } 
+    }
+
+}
+

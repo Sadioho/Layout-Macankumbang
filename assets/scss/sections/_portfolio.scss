@@ -1,0 +1,71 @@
+.portfolio{
+    overflow: hidden;
+    padding-top: 50px;
+    font-family: 'Open Sans';
+    .container-fluid{
+        .page-portfolio{
+            text-align: center;
+            li{
+                cursor: pointer;
+                display: inline-block;
+                font-size: 15px;
+                .color-black{
+                    color: black;
+                }   
+            }
+            .active{
+                color:rgb(145, 145, 145);
+            }
+        }
+    }
+    .browse-all{
+        margin: 65px 0;
+     h3{
+        font-size: 18px;
+        font-weight: bold;
+     }
+     h4{
+         @extend h3;
+     }
+    }
+
+
+
+    .modal{
+        font-family: 'Open sans';
+        .modal-dialog{
+            top: 20% ;
+            transform: translate(-25%,-25%);
+            .modal-content{
+                border-radius: 0;
+                .modal-header{
+                    padding: 0;
+                    border: 0;
+                    .close{
+                        background-color: rgb(255, 255, 255) ;
+                        font-size: 30px;
+                        outline: none;
+                        position: absolute;
+                        right: 15px;
+                        top: 17px;
+                        padding: 10px 20px;
+                        z-index: 44;
+                        opacity: 1;
+                        transition: all 0.6s;
+                        &:hover{
+                            background-color: #EA5B58;
+                        }
+                      
+                    }
+                }
+               
+                img{
+
+                 width: 100%;
+                 margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    
+}
